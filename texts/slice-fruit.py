@@ -1,4 +1,4 @@
-fruit = input("Say a fruit: ")
+fruit = input("Type a fruit: ")
 print("first letter:", fruit[0])
 print("last letter:", fruit[-1])
 print("two first letters:", fruit[0:2])
