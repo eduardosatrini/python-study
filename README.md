@@ -1,10 +1,10 @@
 # Learning and documenting my progress in python.
 
 * [VARIABLES](#Variables)
-* PRIMIVITE TYPES AND INPUT/OUTPUT
 * ARITHMETIC OPERATORS
-* IMPORTS
+* PRIMIVITE TYPES AND INPUT/OUTPUT
 * MANIPULATING STRINGS
+* IMPORTS
 * CONDICTIONS
 * FOR
 * WHILE
@@ -16,7 +16,7 @@
 * ERRORS AND EXCEPTIONS
 ---
 ### Variables
-To declare variables in python use: `=`
+To declare variables in python use: _variable `=` value_
 ### Examples
-```name = "Eduardo"
-age = 24``` 
+`name = "Eduardo"`
+`age = 24` 
