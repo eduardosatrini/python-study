@@ -20,3 +20,4 @@ To declare variables in python use: _variable `=` value_
 ### Examples
 `name = "Eduardo"`
 `age = 24` 
+`color, animal = "white", "bear"` 
