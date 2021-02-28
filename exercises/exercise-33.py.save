@@ -1,0 +1,15 @@
+from datetime import date
+
+birth = int(input("Birth date: "))
+
+act_year = date.today().year
+years_old = birth - act_year
+m_years =  
+
+print(f"Who's born in {birth} have {years_old} years old in {act_year}")
+if years_old > 18:
+	print("You passed the deadline to enlist in the army!")
+elif years_old == 18:
+	print("Enlistment year!")
+else:
+	print(f"You're {} years away from enlistin 
