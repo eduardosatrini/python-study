@@ -1,3 +1,5 @@
+# Calc area width and height
+
 w = float(input("Width: "))
 h = float(input("Height: "))
 

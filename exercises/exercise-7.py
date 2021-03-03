@@ -1,3 +1,5 @@
+# Calc discount
+
 value = float(input("Price of the product: $"))
 discount = value * 5 / 100
 prod = value - discount

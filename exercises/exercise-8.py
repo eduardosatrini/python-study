@@ -1,3 +1,5 @@
+# Calc salary with 15% increase
+
 value = float(input("Your salary: :) $"))
 increase = value * 15 / 100
 salary = increase + value

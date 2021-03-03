@@ -1,3 +1,4 @@
+# Triple, double and square
 n = int(input("Type a number: "))
 print("Double: {}".format(n * 2))
 print("Triple: {}".format(n * 3))

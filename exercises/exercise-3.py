@@ -1,3 +1,4 @@
+# show km, hm, dam, dm, cm mm calc
 d = float(input("Distance in meters: "))
 print(d / 1000, "km")
 print(d / 100, "hm")

@@ -1,3 +1,4 @@
+# calc table
 n = int(input("Type a number: "))
 print("=" * 10)
 print("{} x {} = {}".format(n, 1, n * 1))
