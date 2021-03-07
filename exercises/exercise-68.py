@@ -9,7 +9,7 @@ while True:
     if 0 <= num <= 20: 
         print(f"Full: {numbers[num]}")
         keep = str(input("Continue [Y/N]: ")).strip().upper()
-        if keep == "N":
+        if keep != "Y":
             break
     else:
         print("Try again.", end = " ")
