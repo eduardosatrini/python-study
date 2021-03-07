@@ -1,3 +1,5 @@
+# Shuffle names
+
 import random
 
 name1 = input("Name 1°: ")

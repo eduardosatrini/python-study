@@ -1,3 +1,5 @@
+# BMI
+
 weigh = float(input("How much do you weigh? KG"))
 height = float(input("How tall are you? (M)"))
 # normal, obesity morbid, under normal weight, over weigh

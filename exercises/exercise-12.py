@@ -1,3 +1,4 @@
+# Calc Hipotenuse
 from math import hypot
 
 opposite = float(input("Opposite leg length: "))

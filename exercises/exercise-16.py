@@ -1,3 +1,5 @@
+# Slices strings
+
 name = str(input("Your name: ")).strip()
 
 print("Upper:", name.upper())

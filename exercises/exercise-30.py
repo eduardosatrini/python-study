@@ -1,3 +1,5 @@
+# Calc rent
+
 house_price = float(input("House price: R$"))
 salary    = float(input("Your salary: R$"))
 years_pay = int(input("Years to pay: "))

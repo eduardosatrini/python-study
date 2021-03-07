@@ -1,3 +1,5 @@
+# Calc salary with percent
+
 salary = float(input("Salary: R$"))
 
 if salary <= 1250:

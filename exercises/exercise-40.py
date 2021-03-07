@@ -1,3 +1,5 @@
+#  Jan ken poo
+
 from random import randint 
 
 print("""

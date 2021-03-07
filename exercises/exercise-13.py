@@ -1,3 +1,5 @@
+# Calc angle
+
 import math
 n = float(input("Type an angle:"))
 n = math.radians(n)

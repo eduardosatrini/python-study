@@ -1,3 +1,5 @@
+# Calc student's media
+
 n1 = float(input("Student grade 1: "))
 n2 = float(input("Student grade 2: "))
 

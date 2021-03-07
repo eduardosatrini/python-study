@@ -1,3 +1,5 @@
+# Calc velocity the driver
+
 velo = int(input("Current car speed: "))
 
 if velo <= 80:

@@ -1,3 +1,5 @@
+# Weight min and max in KG
+
 weight_max = 0
 weight_min = 0
 for i in range(1, 6):

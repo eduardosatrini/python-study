@@ -1,3 +1,5 @@
+# Calc major, minor and equals numbers
+
 n1 = int(input("First number: "))
 n2 = int(input("Second number: "))
 

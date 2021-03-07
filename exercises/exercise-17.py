@@ -1,3 +1,5 @@
+# Unity at Thousand
+
 n = int(input("Type a number: "))
 
 print("Unity:", n // 1 % 10)

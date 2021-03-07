@@ -1,3 +1,5 @@
+# Total majors and minors
+
 from datetime import date
 
 total_major = 0

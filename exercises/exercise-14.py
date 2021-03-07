@@ -1,3 +1,5 @@
+# Sorted student
+
 from random import choice
 
 name1 = input("Name 1°: ")

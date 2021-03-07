@@ -1,3 +1,5 @@
+# Spliting names
+
 full_name = str(input("Your complete name: ")).strip()
 
 split_name = full_name.split()

@@ -1,3 +1,5 @@
+# Show config name
+
 name = str(input("Your complete name: ")).strip().lower()
 
 f_name = name.find("a") + 1

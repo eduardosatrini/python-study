@@ -1,3 +1,5 @@
+# Total even numbers
+
 total = 0
 for i in range(1, 7):
     num = int(input("Type a number:"))

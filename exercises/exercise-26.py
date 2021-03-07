@@ -1,3 +1,5 @@
+# Calc leap year
+
 from datetime import date
 year = int(input("Choose a year (0 for actual year):"))
 

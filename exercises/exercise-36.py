@@ -1,3 +1,5 @@
+# Calc triangle v2
+
 seg_1 = int(input("First segment: "))
 seg_2 = int(input("Second segment: "))
 seg_3 = int(input("Third segment: "))

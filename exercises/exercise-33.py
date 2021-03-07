@@ -1,3 +1,5 @@
+# Calc ficcional date enlistment 
+
 from datetime import date
 
 birth = int(input("Birth date: "))

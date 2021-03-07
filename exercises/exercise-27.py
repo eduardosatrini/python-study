@@ -1,3 +1,5 @@
+# Calc major and minor number
+
 n1 = int(input("1º number: "))
 n2 = int(input("2º number: "))
 n3 = int(input("3º number: "))

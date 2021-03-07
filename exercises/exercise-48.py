@@ -1,3 +1,5 @@
+# Palindrome
+
 txt = str(input("Type: ")).strip().lower()
 
 txt_split = txt.split()

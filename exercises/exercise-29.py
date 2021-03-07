@@ -1,3 +1,5 @@
+# Verify if is triangle or not
+
 seg_1 = float(input("First segment: "))
 seg_2 = float(input("Second segment: "))
 seg_3 = float(input("Third segment: "))
