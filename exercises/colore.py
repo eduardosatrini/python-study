@@ -1,6 +1,6 @@
 # COLORS
 
-def color(txt):
+def colore(txt):
     # blue
     if ":blue:" in txt:
         value = txt.replace(":blue:", "\033[34m")
@@ -31,3 +31,4 @@ def color(txt):
         value = txt.replace(":n:", "\033[7m")
         if ":n_:" in txt:
             return value.replace(":n_:", "\033[m")
+    return txt
