@@ -1,6 +1,5 @@
-from calcs import calcs
+from utility.calc import calc
 
-v = float(input("Type a value: R$"))
-print(f"Half: R${calcs.half(v):.2f}")
-print(f"Double: R${calcs.double(v):.2f}")
-print(f"Increase 22%: R${calcs.increase_percent(v, 22)}")
+# MAIN
+value = float(input("Type a value: R$"))
+calc.table_price(value, 12, 19)
