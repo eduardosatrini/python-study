@@ -2,13 +2,17 @@ import os.path
 import csv
 
 def show_all_users():
-
+    """
+    Show all users in csv file.
+    :return: return list all users
+    or not exists file.
+    """
     if os.path.exists("data/users.csv"):
         with open("data/users.csv", "r") as userscsv:
             data = csv.DictReader(userscsv)
             return list(data)
     else:
-        return ">>> users.csv NOT EXISTS."
+        return False
 
         
 def insert_user(user):

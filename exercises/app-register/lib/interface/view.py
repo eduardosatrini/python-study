@@ -13,5 +13,5 @@ def show_options():
 
 
 def show_headers():
-    print("{:^20} {:^3} {:^8} {:^5}".format("name", "age", "salary", "email").title())
+    print("{:^20} {:^3} {:^7} {:^5}".format("name", "age", "salary", "email").title())
     print("--"*30)

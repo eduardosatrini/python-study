@@ -8,7 +8,10 @@ while True:
 
     if option == 1:
         users_data = users.show_all_users()
-        print(users_data)
+        if users_data:
+            view.show_headers()
+            for u in users_data:
+                print(f"{u['name']:^20} {u['age']:^3} {u['salary']:^7} {u['email']}")
         sleep(1)
     elif option == 2:
         data = dict()
