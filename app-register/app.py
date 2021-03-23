@@ -1,6 +1,7 @@
 from lib.crud import users
 from lib.interface import view
 from time import sleep
+from prettytable import PrettyTable
 
 while True:
     view.show_options()
@@ -9,10 +10,11 @@ while True:
     if option == 1:
         users_data = users.show_all_users()
         if users_data:
-            view.show_headers()
+            table = PrettyTable(["name", "age", "salary", "email"])
             for u in users_data:
-                print(f"{u['name']:^20} {u['age']:^3} {u['salary']:^7} {u['email']}")
-        sleep(1)
+                table.add_row([u['name'], u['age'], u['salary'], u['email']])
+            print(table)
+        sleep(0.5)
     elif option == 2:
         data = dict()
         data["name"] = str(input(">>> Name: "))
