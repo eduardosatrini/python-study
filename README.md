@@ -1,6 +1,6 @@
 # Learning and documenting my progress in python.
 
-* [VARIABLES](#Variables)
+* VARIABLES
 * ARITHMETIC OPERATORS
 * PRIMITIVE TYPES AND INPUT/OUTPUT
 * MANIPULATING STRINGS
@@ -14,10 +14,3 @@
 * FUNCTIONS
 * PACKAGES
 * ERRORS AND EXCEPTIONS
----
-### Variables
-To declare variables in python use: _variable `=` value_
-### Examples
-`name = "Eduardo"`   
-`age = 24`    
-`color, animal = "white", "bear"`    
